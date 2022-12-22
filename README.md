@@ -42,6 +42,8 @@ When adding and deleting versions from this repository, don't forget to update t
 Dockerfiles in this repository are not generated and they don't use build args to keep things simple.
 We may revisit that decision in the future.
 
+Patch versions are automatically updated by Dependabot.
+
 
 ## License
 
