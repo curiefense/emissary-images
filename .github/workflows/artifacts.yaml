@@ -37,10 +37,10 @@ jobs:
           flavor: |
             latest = false
           tags: |
-            type=raw,value=${{ steps.versions.outputs.emissary }}-curiefense${{ steps.versions.outputs.curiefense }}
             type=raw,value=${{ steps.versions.outputs.emissary }}-curiefense${{ steps.versions.outputs.curiefense }}-build.${{ github.run_number }}
-            type=raw,value=${{ matrix.emissary }}-curiefense${{ matrix.curiefense }}
+            type=raw,value=${{ steps.versions.outputs.emissary }}-curiefense${{ steps.versions.outputs.curiefense }}
             type=raw,value=${{ matrix.emissary }}-curiefense${{ matrix.curiefense }}-build.${{ github.run_number }}
+            type=raw,value=${{ matrix.emissary }}-curiefense${{ matrix.curiefense }}
           labels: |
             org.opencontainers.image.documentation=https://docs.curiefense.io/
 
