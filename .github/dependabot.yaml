@@ -1,0 +1,17 @@
+version: 2
+
+updates:
+  - package-ecosystem: "docker"
+    directory: "/1.5/3.2"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/1.5/3.3"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
