@@ -23,7 +23,7 @@ build number annotated tags are immutable.
 
 Install Emissary using your usual method, but use one of the above images.
 
-TODO: add more docs about installing Emisary.
+TODO: add more docs about installing Emissary.
 
 
 ## Maintenance
