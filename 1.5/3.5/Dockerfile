@@ -1,6 +1,6 @@
 FROM curiefense/curieproxy-envoy:v1.5.0 as curieproxy
 
-FROM docker.io/emissaryingress/emissary:3.5.0
+FROM docker.io/emissaryingress/emissary:3.5.2
 
 RUN set -xe && \
   apk add lua pcre2 geoip vectorscan && \
